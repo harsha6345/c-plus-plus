@@ -1,11 +1,13 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    string firstName;
-    cout << "Type your first name: ";
-    cin >> firstName; // get user input from the keyboard
-    cout << "Your name is: " << firstName;
+    int myNumbers[5] = {10, 20, 30, 40, 50};
+    for (int i : myNumbers)
+    {
+        cout << i << "\n";
+    }
 }
